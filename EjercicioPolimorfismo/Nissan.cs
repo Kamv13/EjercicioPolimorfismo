@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace EjercicioPolimorfismo
 {
-    public class Toyota : Vehiculo
+    public class Nissan : Vehiculo
     {
-
         public override void Arrancar()
         {
-            Console.WriteLine("El Toyota arranca 'Doom Doom'");
+            Console.WriteLine("El Nisssan arranca 'doom doom'");
         }
 
         public override void Detenerse()
         {
-            Console.WriteLine("El Toyota se detiene en la curva");
+            Console.WriteLine("El Nissan se detiene en el taller");
         }
     }
 }

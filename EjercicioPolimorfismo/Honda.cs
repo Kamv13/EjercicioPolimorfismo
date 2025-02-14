@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioPolimorfismo
 {
-    internal class Honda : Vehiculo
+    public class Honda : Vehiculo
     {
 
         public override void Arrancar()
